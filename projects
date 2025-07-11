@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gabriel Walls | Projects</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Projects</h1>
+    <p>Here are some of my featured projects:</p>
+  </header>
+
+  <section class="projects">
+    <article class="project-card">
+      <h2><a href="https://github.com/GabeWalls/arrow-grain-calculator">Arrow Grain Calculator</a></h2>
+      <p>A custom tool for archers to calculate arrow grain weights based on component inputs.</p>
+    </article>
+
+    <article class="project-card">
+      <h2><a href="https://github.com/GabeWalls/CS-330">CS-330 OpenGL Final</a></h2>
+      <p>3D graphics scene with lighting, textures, and camera controls built with OpenGL.</p>
+    </article>
+
+    <article class="project-card">
+      <h2><a href="https://github.com/GabeWalls/CS-405">CS-405 Secure Software Project</a></h2>
+      <p>A secure C++ banking application portfolio with static analysis and exception handling.</p>
+    </article>
+  </section>
+</body>
+</html>
