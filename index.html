@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gabriel Walls | ePortfolio</title>
-  <link rel="stylesheet" href = "styles.css">
+  <title>Gabriel Walls | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-  
 <body>
-  <h1>Gabriel Walls ePortfolio</h1>
-  <!-- <p>Hi, I’m Gabriel Walls, an aspiring Full Stack Developer.</p> -->
-    <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Main Content Below -->
-  <header>
-    <!-- <h1>Gabriel Walls ePortfolio</h1> -->
-    <p>IT Support Lead | Aspiring Software Engineer</p>
-  </header>
-
-  <section id="about" class="about-section">
-    <div class=about-container>
-      <img src="images/profile.jpg" alt="Photo of Gabriel Walls" class="profile-pic">
-      <div class="about-text">
-        <h2>About Me</h2>
-        <p>I'm Gabriel Walls, currently serving as the IT Support Team Lead at Zurcher Tire Inc. I have a strong foundation in technical support and leadership, but my passion lies in software engineering. I love building full-stack applications and enjoy exploring AI and machine learning in my spare time.</p>
+  <div class="layout">
+    
+    <!-- Fixed Sidebar Navigation -->
+    <nav class="sidebar">
+      <h1>Gabriel Walls</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <!-- <li><a href="#experience">Experience</a></li> -->
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="socials">
+        <a href="https://github.com/GabeWalls">GitHub</a>
+        <a href="https://linkedin.com/in/YOUR-LINK">LinkedIn</a>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:gabewalls@tutanota.com">gabewalls@tutanota.com</a></p>
-    <p>GitHub: <a href="https://github.com/GabeWalls" target="_blank">GabeWalls</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/gabriel-walls-12373b21a/" target="_blank">Gabe Walls LinkedIn Profile</a></p>
-  </section>
-  
-  </ul>
+    <!-- Scrollable Main Content -->
+    <main class="content">
+      <section id="about">
+        <h2>About</h2>
+        <p>I'm Gabriel Walls, currently serving as the IT Support Team Lead at Zurcher Tire Inc. I have a strong foundation in technical support and leadership, but my passion lies in software engineering. I love building full-stack applications and enjoy exploring AI and machine learning in my spare time.</p>
+      </section>
+
+      <!-- <section id="experience">
+        <h2>Experience</h2>
+        <p><strong>IT Support Team Lead – Zurcher Tire Inc. (2023 – Present)</strong><br>
+        Leading support efforts across teams while independently studying full-stack technologies and contributing to automation/efficiency improvements.</p>
+      </section> -->
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="https://github.com/GabeWalls/arrow-grain-calculator">Arrow Grain Calculator</a></li>
+          <li><a href="https://github.com/GabeWalls/CS-330">CS-330 OpenGL Final</a></li>
+          <li><a href="https://github.com/GabeWalls/CS-405">Secure Software Banking App</a></li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:gabewalls@tutanota.com">gabewalls@tutanota.com</a></p>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
