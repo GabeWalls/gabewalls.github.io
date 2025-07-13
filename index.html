@@ -8,35 +8,38 @@
 </head>
 <body>
   <div class="layout">
-    
-    <!-- Fixed Sidebar Navigation -->
+
+    <!-- Sidebar Navigation -->
     <nav class="sidebar">
-      <h1>Gabriel Walls</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <!-- <li><a href="#experience">Experience</a></li> -->
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div class="nav-wrapper">
+        <h1>Gabriel Walls</h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
       <div class="socials">
-        <a href="https://github.com/GabeWalls">GitHub</a>
-        <a href="https://linkedin.com/in/YOUR-LINK">LinkedIn</a>
+        <a href="https://github.com/GabeWalls" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/YOUR-LINK" target="_blank">LinkedIn</a>
       </div>
     </nav>
 
-    <!-- Scrollable Main Content -->
+    <!-- Main Content Area -->
     <main class="content">
-      <section id="about">
-        <h2>About</h2>
-        <p>I'm Gabriel Walls, currently serving as the IT Support Team Lead at Zurcher Tire Inc. I have a strong foundation in technical support and leadership, but my passion lies in software engineering. I love building full-stack applications and enjoy exploring AI and machine learning in my spare time.</p>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="about-image">
+          <img src="images/profile.jpg" alt="Gabriel Walls">
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>I'm Gabriel Walls, currently serving as the IT Support Team Lead at Zurcher Tire Inc. I have a strong foundation in technical support and leadership, but my passion lies in software engineering. I love building full-stack applications and enjoy exploring AI and machine learning in my spare time.</p>
+        </div>
       </section>
 
-      <!-- <section id="experience">
-        <h2>Experience</h2>
-        <p><strong>IT Support Team Lead – Zurcher Tire Inc. (2023 – Present)</strong><br>
-        Leading support efforts across teams while independently studying full-stack technologies and contributing to automation/efficiency improvements.</p>
-      </section> -->
-
+      <!-- Projects Section -->
       <section id="projects">
         <h2>Projects</h2>
         <ul>
@@ -46,10 +49,12 @@
         </ul>
       </section>
 
+      <!-- Contact Section -->
       <section id="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:gabewalls@tutanota.com">gabewalls@tutanota.com</a></p>
       </section>
+
     </main>
   </div>
 </body>
