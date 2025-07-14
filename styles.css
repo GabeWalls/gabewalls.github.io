@@ -97,6 +97,42 @@ body {
   margin-bottom: 1rem;
 }
 
+/* EXPERIENCE SECTON */
+#experience {
+  max-width: 900px;
+  margin-bottom: 4rem;
+}
+
+.job {
+  margin-bottom: 2rem;
+}
+
+.job h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.3rem;
+}
+
+.company {
+  font-weight: normal;
+  color: #999;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.job ul {
+  padding-left: 1.25rem;
+  line-height: 1.6;
+}
+
+.job ul li {
+  margin-bottom: 0.4rem;
+}
+
+
 /* PROJECTS & CONTACT */
 section {
   max-width: 900px;
