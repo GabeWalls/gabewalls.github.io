@@ -189,6 +189,50 @@ body {
   color: #66d9ff;
 }
 
+.project-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.project-image img {
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  flex-shrink: 0;
+}
+
+.project-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.project-text h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-text p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.project-text a {
+  color: #40bdf8;
+  text-decoration: none;
+}
+
+.project-text a:hover {
+  text-decoration: underline;
+  color: #66d9ff;
+}
+
+
 /* CONTACT SECTION */
 section {
   max-width: 900px;
