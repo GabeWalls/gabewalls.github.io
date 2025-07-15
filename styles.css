@@ -245,6 +245,16 @@ html {
   cursor: pointer;
 }
 
+.project.aos-animate {
+  transform: none !important;
+}
+
+.project.aos-animate:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
 .project img {
   width: 240px;
   height: 160px;
