@@ -137,6 +137,12 @@ html {
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
 }
 
 /* Heading */
@@ -179,6 +185,12 @@ html {
   padding: 2rem;
   text-align: left;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-bubble:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
 }
 
 .experience-bubble h3 {
@@ -227,8 +239,8 @@ html {
 }
 
 .project:hover {
-  transform: scale(1.01);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
 .project img {
