@@ -79,17 +79,17 @@ html {
 .resume-btn {
   padding: 1rem 2rem;
   border: 3px solid #00e600;
-  border-radius: 9px;
+  border-radius: 4px;
   background-color: transparent;
   color: #00e600;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.80rem;
   text-decoration: none;
   transition: all 0.3s ease;
   line-height: 1;
   display: inline-block;
   position: relative;
-  top: -4; /* align with nav */
+  top: 4; /* align with nav */
 }
 
 .resume-btn:hover {
