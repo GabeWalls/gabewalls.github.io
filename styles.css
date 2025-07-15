@@ -10,32 +10,6 @@ html {
   scroll-padding-top: 100px; /* Match this to your navbar height */
 }
 
-/* Resume Button Wrapper */
-.resume-btn {
-  margin-left: 2rem;
-  padding: 1rem 1.5rem;
-  border: 2px solid #00e600;
-  border-radius: 6px;
-  background-color: transparent;
-  color: #00e600;
-  font-weight: 600;
-  font-size: 0.95rem;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  position: relative;
-  top: 2px; /* Lift slightly to align with nav links */
-  display: inline-block;
-  line-height: 1;
-}
-
-.resume-btn:hover {
-  background-color: #00e600;
-  color: #000;
-  transform: translateY(-1px);
-  box-shadow: 0 2px 6px rgba(0, 230, 0, 0.4);
-  text-decoration: none;
-}
-
 /* TOP NAVIGATION */
 .top-nav {
   background-color: rgba(26, 26, 26, 0.85);
@@ -50,22 +24,19 @@ html {
   transition: background-color 0.3s ease;
 }
 
-/* Optional: show/hide site title */
-.top-nav h1 {
-  display: none; /* Change to block if you want to include a logo/title */
-  margin-right: auto;
-  font-size: 1.25rem;
-  color: #fff;
+.top-nav nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 /* Nav Links */
 .top-nav nav ul {
   list-style: none;
   display: flex;
-  gap: 3rem;
+  gap: 2.2rem;
   margin: 0;
   padding: 0;
-  gap: 2.2rem;
   align-items: center;
 }
 
@@ -84,7 +55,7 @@ html {
   transition: color 0.3s ease;
 }
 
-.top-nav nav a::after {
+.top-nav nav ul a::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -103,10 +74,31 @@ html {
   transform-origin: left;
 }
 
-.top-nav.scrolled {
-  background-color: rgba(26, 26, 26, 0.75); /* slightly transparent */
-  backdrop-filter: blur(6px); /* optional for glassy effect */
+/* Resume Button */
+.resume-btn {
+  padding: 0.8rem 1.3rem;
+  border: 2px solid #00e600;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #00e600;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  line-height: 1;
+  display: inline-block;
+  position: relative;
+  top: 0; /* align with nav */
 }
+
+.resume-btn:hover {
+  background-color: #00e600;
+  color: #000;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 230, 0, 0.4);
+  text-decoration: none;
+}
+
 
 /* SOCIAL LINKS */
 .social-vertical {
