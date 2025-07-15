@@ -78,8 +78,8 @@ html {
 /* Resume Button */
 .resume-btn {
   padding: 1rem 2rem;
-  border: 2px solid #00e600;
-  border-radius: 6px;
+  border: 3px solid #00e600;
+  border-radius: 9px;
   background-color: transparent;
   color: #00e600;
   font-weight: 600;
@@ -89,7 +89,7 @@ html {
   line-height: 1;
   display: inline-block;
   position: relative;
-  top: 0; /* align with nav */
+  top: -4; /* align with nav */
 }
 
 .resume-btn:hover {
