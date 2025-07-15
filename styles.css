@@ -15,15 +15,15 @@ html {
   margin-left: 2rem;
   padding: 0.4rem 1rem;
   border: 1.5px solid #00e600;
-  border-radius: 6px;
+  border-radius: 9px;
   background-color: transparent;
   color: #00e600;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   text-decoration: none !important;
   transition: all 0.3s ease;
   position: relative;
-  top: 1px; /* Raise slightly to match nav */
+  top: 1.3px; /* Raise slightly to match nav */
 }
 
 .resume-btn:hover {
