@@ -81,18 +81,17 @@ html {
 
 /* Resume Button */
 .resume-btn {
-  padding: 0.45rem 1.4rem;
-  border: 1.5px solid #00e600;
+  padding: 0.45rem 1.4rem;           /* More space around text */
+  border: 1.5px solid #00e600;       /* Slightly thicker outline */
   border-radius: 6px;
   background-color: transparent;
   color: #ccc;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 0.9rem;                 /* Slightly smaller font */
   text-decoration: none;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
   position: relative;
-  top: -5px; /* lift slightly to align */
-  margin-left: 1.5rem;
+  top: -3px;                         /* Raised more for alignment */
 }
 
 .resume-btn:hover {
@@ -100,7 +99,6 @@ html {
   color: #00e600;
   border-color: #00e600;
 }
-
 
 /* SOCIAL LINKS */
 .social-vertical {
