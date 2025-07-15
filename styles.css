@@ -231,12 +231,12 @@ html {
   align-items: center;
   background-color: #1e1e1e;
   border-radius: 12px;
-  padding: 2rem;
   margin-bottom: 3rem;
   text-align: left;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
+  max-width: 900px;
+  padding: 3rem 1.5rem;
 }
 
 .project:hover {
@@ -292,7 +292,7 @@ section:not(.about-section) {
 }
 
 
-.content {
+.contact {
   max-width: 900px;
   margin: 0 auto;
   padding: 3rem 1.5rem;
