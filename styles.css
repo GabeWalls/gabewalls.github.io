@@ -19,11 +19,16 @@ body {
 
 /* NEW TOP NAV */
 .top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background-color: #1a1a1a;
   padding: 2rem 1rem 1rem;
   text-align: center;
   border-bottom: 1px solid #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4); /* Optional subtle shadow */
 }
+
 
 .top-nav h1 {
   font-size: 2rem;
