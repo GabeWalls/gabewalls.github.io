@@ -12,21 +12,25 @@ html {
 
 /* Resume Button */
 .resume-btn {
-  padding: 0.45rem 1rem;
+  padding: 0.4rem 1rem;
   border: 1px solid #00e600;
   color: #00e600;
-  border-radius: 5px;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1rem;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 0.95rem;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  line-height: 1;
 }
 
 .resume-btn:hover {
   background-color: #00e600;
   color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(0, 230, 0, 0.3);
 }
-
 
 /* TOP NAVIGATION */
 .top-nav {
