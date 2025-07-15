@@ -324,12 +324,16 @@ html {
 
 
 /* CONTACT SECTION and other generics, excluding About */
-
 .contact {
   max-width: 900px;
-  margin: 0 auto;
-  padding: 3rem 1.5rem;
-  overflow: visible;
+  margin: 6rem auto;            /* More space above/below */
+  padding: 0 2rem 4rem;         /* Adds horizontal and bottom padding */
+  text-align: left;
+}
+
+section:not(.about-section) {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 section h2 {
