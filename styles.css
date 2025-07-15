@@ -327,6 +327,12 @@ html {
 
 
 /* CONTACT SECTION and other generics, excluding About */
+section#contact {
+  max-width: 900px;
+  margin: 5rem auto;
+  padding: 0 1.5rem;
+}
+
 .contact {
   max-width: 900px;
   margin: 6rem auto;            /* More space above/below */
