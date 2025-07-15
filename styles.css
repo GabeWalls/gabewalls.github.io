@@ -71,7 +71,7 @@ html {
 .top-nav nav ul a:hover::after,
 .top-nav nav ul a.active::after {
   transform: scaleX(1);
-  color: #00e600;
+  font-color: #00e600;
   transform-origin: left;
 }
 
@@ -81,11 +81,9 @@ html {
   border: 0.8px solid #00e600;
   border-radius: 4px;
   background-color: transparent;
-  width: 30px;
-  height: 18px;
   color: #00e600;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 0.90rem;
   text-decoration: none;
   transition: all 0.25s ease;
   line-height: 3;
