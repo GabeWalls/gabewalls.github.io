@@ -7,21 +7,21 @@ body {
 }
 
 /* RESUME BUTTON */
-.resume-button .btn-outline {
+.resume-btn {
   padding: 0.4rem 1rem;
   border: 1px solid #00bcd4;
   color: #00bcd4;
-  border-radius: 4px;
+  border-radius: 5px;
   text-decoration: none;
+  font-weight: 600;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.resume-button .btn-outline:hover {
+.resume-btn:hover {
   background-color: #00bcd4;
   color: #000;
 }
 
-/* NEW TOP NAV */
 /* NEW TOP NAV */
 .top-nav {
   background-color: #1a1a1a;
