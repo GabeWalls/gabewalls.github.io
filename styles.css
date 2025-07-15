@@ -10,14 +10,14 @@ html {
   scroll-padding-top: 100px; /* Match this to your navbar height */
 }
 
-/* Resume Button Wrapper */
+/* Resume Button Wrapper
 .resume-button {
   margin-left: 1.5rem;
   position: relative;
-  top: -2px; /* Slightly raise button */
-}
+  top: -2px; 
+} */
 
-/* Resume Button Styling */
+/* Resume Button Styling 
 .resume-btn {
   display: inline-block;
   padding: 0.5rem 1.2rem;
@@ -27,17 +27,17 @@ html {
   border-radius: 6px;
   font-size: 0.95rem;
   font-weight: 600;
-  text-decoration: none !important; /* Override underline */
+  text-decoration: none !important; 
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
   line-height: 1.2;
-}
+} 
 
 .resume-btn:hover {
   background-color: #00e600;
   color: #000;
   transform: translateY(-2px);
-  text-decoration: none !important; /* Ensure no underline on hover */
-}
+  text-decoration: none !important; 
+} */
 
 /* TOP NAVIGATION */
 .top-nav {
