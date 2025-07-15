@@ -93,15 +93,16 @@ body {
 
 /* ABOUT SECTION */
 .about-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 2rem 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
-  height: 100vh; /* Full page height */
-  padding: 2rem;
+  gap: 3rem;
   flex-wrap: wrap;
-  text-align: left;
 }
+
 
 .about-text {
   flex: 1;
