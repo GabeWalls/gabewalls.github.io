@@ -75,17 +75,33 @@ html {
 }
 
 .top-nav nav a {
+  position: relative;
   color: #ccc;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.05rem;
-  transition: color 0.3s ease, text-decoration 0.3s ease;
+  padding: 0.25rem 0;
+  transition: color 0.3s ease;
 }
 
-.top-nav nav a.active,
+.top-nav nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #66ff99; /* light green underline */
+  transition: width 0.3s ease;
+}
+
 .top-nav nav a:hover {
   color: #66ff99;
-  text-decoration: underline;
+}
+
+.top-nav nav a:hover::after,
+.top-nav nav a.active::after {
+  width: 100%;
 }
 
 .top-nav.scrolled {
