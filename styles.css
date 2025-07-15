@@ -218,9 +218,9 @@ html {
 
 /* PROJECTS SECTION */
 #projects {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 5rem auto;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
   text-align: center;
 }
 
