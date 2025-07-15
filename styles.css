@@ -78,11 +78,11 @@ html {
 /* Resume Button */
 .resume-btn {
   padding: 0.5rem 1.25rem;
-  border: 0.5px solid #00e600;
+  border: 0.8px solid #00e600;
   border-radius: 4px;
   background-color: transparent;
-  width: 16px;
-  height: 28px;
+  width: 30px;
+  height: 18px;
   color: #00e600;
   font-weight: 500;
   font-size: 0.95rem;
