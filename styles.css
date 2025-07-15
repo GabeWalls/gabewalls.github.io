@@ -242,6 +242,7 @@ html {
 .project:hover {
   transform: translateY(-6px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .project img {
