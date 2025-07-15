@@ -6,11 +6,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* RESET OLD LAYOUT */
-.layout, .sidebar, .nav-wrapper {
-  display: none;
-}
-
 /* NEW TOP NAV */
 .top-nav {
   position: sticky;
