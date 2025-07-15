@@ -71,6 +71,7 @@ html {
 .top-nav nav ul a:hover::after,
 .top-nav nav ul a.active::after {
   transform: scaleX(1);
+  color: #00e600;
   transform-origin: left;
 }
 
