@@ -271,12 +271,13 @@ html {
 }
 
 
-/* CONTACT SECTION */
-section {
+/* CONTACT SECTION and other generics, excluding About */
+section:not(.about-section) {
   max-width: 900px;
   margin: 4rem auto;
   padding: 2rem 1rem;
 }
+
 
 .content {
   max-width: 900px;
