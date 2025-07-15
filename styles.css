@@ -83,13 +83,12 @@ html {
   background-color: transparent;
   color: #00e600;
   font-weight: 600;
-  font-size: 0.80rem;
+  font-size: 0.5rem;
   text-decoration: none;
   transition: all 0.3s ease;
-  line-height: 1;
+  line-height: 1.4;
   display: inline-block;
   position: relative;
-  top: 4; /* align with nav */
 }
 
 .resume-btn:hover {
