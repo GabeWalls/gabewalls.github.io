@@ -219,7 +219,7 @@ html {
 /* PROJECTS SECTION */
 #projects {
   max-width: 1400px;
-  margin: 5rem auto;
+  margin: 0 auto 3rem;
   padding: 0 2rem;
   text-align: center;
 }
