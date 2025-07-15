@@ -6,6 +6,10 @@ body {
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-padding-top: 100px; /* Match this to your navbar height */
+}
+
 /* RESUME BUTTON */
 .resume-btn {
   padding: 0.45rem 1.1rem;
