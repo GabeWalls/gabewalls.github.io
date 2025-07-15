@@ -6,12 +6,6 @@ body {
   scroll-behavior: smooth;
 }
 
-.layout {
-  display: flex;
-  height: 100vh;
-  overflow: hidden;
-}
-
 /* RESET OLD LAYOUT */
 .layout, .sidebar, .nav-wrapper {
   display: none;
