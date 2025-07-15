@@ -55,13 +55,6 @@ html {
   color: #fff;
 }
 
-/* Navigation container with links and resume button */
-.top-nav nav {
-  display: flex;
-  align-items: center;
-  gap: 1.8rem;
-}
-
 /* Nav Links */
 .top-nav nav ul {
   list-style: none;
@@ -69,6 +62,7 @@ html {
   gap: 3rem;
   margin: 0;
   padding: 0;
+  gap: 2.2rem;
   align-items: center;
 }
 
