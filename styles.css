@@ -13,17 +13,19 @@ html {
 /* Resume Button Wrapper */
 .resume-btn {
   margin-left: 2rem;
-  padding: 0.4rem 1rem;
-  border: 1.5px solid #00e600;
-  border-radius: 9px;
+  padding: 0.5rem 1rem;
+  border: 2px solid #00e600;
+  border-radius: 6px;
   background-color: transparent;
   color: #00e600;
   font-weight: 600;
-  font-size: 0.85rem;
-  text-decoration: none !important;
+  font-size: 0.95rem;
+  text-decoration: none;
   transition: all 0.3s ease;
   position: relative;
-  top: 1.3px; /* Raise slightly to match nav */
+  top: 2px; /* Lift slightly to align with nav links */
+  display: inline-block;
+  line-height: 1;
 }
 
 .resume-btn:hover {
@@ -31,6 +33,7 @@ html {
   color: #000;
   transform: translateY(-1px);
   box-shadow: 0 2px 6px rgba(0, 230, 0, 0.4);
+  text-decoration: none;
 }
 
 /* TOP NAVIGATION */
