@@ -89,9 +89,9 @@ html {
   font-weight: 500;
   font-size: 0.95rem;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   position: relative;
-  top: -2px; /* lift slightly to align */
+  top: -5px; /* lift slightly to align */
   margin-left: 1.5rem;
 }
 
