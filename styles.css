@@ -12,6 +12,8 @@ html {
 
 /* Resume Button */
 .resume-btn {
+  display: flex;
+  align-items: center;
   padding: 0.4rem 0.9rem;
   border: 1px solid #66ff99;
   color: #66ff99;
@@ -30,7 +32,7 @@ html {
 
 /* TOP NAVIGATION */
 .top-nav {
-  background-color: #1a1a1a;
+  background-color: rgba(26, 26, 26, 0.95);
   padding: 1.2rem 2rem;
   display: flex;
   justify-content: flex-end;
@@ -39,6 +41,7 @@ html {
   top: 0;
   z-index: 1000;
   border-bottom: 1px solid #333;
+  transition: background-color 0.3s ease;
 }
 
 /* Optional: show/hide site title */
@@ -53,14 +56,14 @@ html {
 .top-nav nav {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.8rem;
 }
 
 /* Nav Links */
 .top-nav nav ul {
   list-style: none;
   display: flex;
-  gap: 2.5rem;
+  gap: 3rem;
   margin: 0;
   padding: 0;
   align-items: center;
@@ -85,7 +88,10 @@ html {
   text-decoration: underline;
 }
 
-
+.top-nav.scrolled {
+  background-color: rgba(26, 26, 26, 0.75); /* slightly transparent */
+  backdrop-filter: blur(6px); /* optional for glassy effect */
+}
 
 /* SOCIAL LINKS */
 .social-vertical {
@@ -323,9 +329,10 @@ ul li {
 }
 
 a {
-  color: #40bdf8;
+  color: #66ff99;
 }
 
 a:hover {
-  color: #66d9ff;
+  color: #99ffcc;
 }
+
