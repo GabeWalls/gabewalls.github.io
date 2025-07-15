@@ -66,9 +66,12 @@ body {
 .about-section {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
-  margin-bottom: 4rem;
+  height: 100vh; /* Full page height */
+  padding: 2rem;
   flex-wrap: wrap;
+  text-align: left;
 }
 
 .about-image img {
