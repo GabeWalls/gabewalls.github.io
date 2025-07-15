@@ -15,8 +15,8 @@ html {
   display: flex;
   align-items: center;
   padding: 0.4rem 0.9rem;
-  border: 1px solid #66ff99;
-  color: #66ff99;
+  border: 1px solid #00e600;
+  color: #00e600;
   border-radius: 4px;
   text-decoration: none;
   font-weight: 600;
@@ -25,7 +25,7 @@ html {
 }
 
 .resume-btn:hover {
-  background-color: #66ff99;
+  background-color: #00e600;
   color: #0f0f0f;
   text-decoration: underline;
 }
@@ -91,12 +91,12 @@ html {
   bottom: -4px;
   width: 0%;
   height: 2px;
-  background-color: #66ff99; /* light green underline */
+  background-color: #00e600; /* light green underline */
   transition: width 0.3s ease;
 }
 
 .top-nav nav a:hover {
-  color: #66ff99;
+  color: #00e600;
 }
 
 .top-nav nav a:hover::after,
@@ -132,7 +132,7 @@ html {
 }
 
 .social-vertical a:hover {
-  color: #00bcd4;
+  color: #00e600;
 }
 
 /* ABOUT SECTION */
