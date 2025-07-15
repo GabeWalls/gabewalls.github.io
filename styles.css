@@ -77,17 +77,16 @@ html {
 
 /* Resume Button */
 .resume-btn {
-  padding: 1rem 2rem;
-  border: 3px solid #00e600;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid #00e600;
   border-radius: 4px;
   background-color: transparent;
   color: #00e600;
-  font-weight: 600;
-  font-size: 0.5rem;
+  font-weight: 500;
+  font-size: 0.95rem;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
   line-height: 1.4;
-  display: inline-block;
   position: relative;
 }
 
