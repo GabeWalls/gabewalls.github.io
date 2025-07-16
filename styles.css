@@ -115,7 +115,8 @@ html {
   transform: translateY(-2px);
   box-shadow: 0 2px 6px rgba(0, 230, 0, 0.3);
   text-decoration: none !important; /* Ensure no underline on hover */
-
+  } 
+  
 /* SOCIAL LINKS */
 .social-vertical {
   position: fixed;
