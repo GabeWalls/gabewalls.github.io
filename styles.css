@@ -13,7 +13,7 @@ html {
 /* TOP NAVIGATION */
 .top-nav {
   background-color: rgba(26, 26, 26, 0.85);
-  padding: 1.2rem 2rem;
+  padding: 0.6rem 2rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
