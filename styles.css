@@ -80,24 +80,43 @@ html {
 }
 
 /* Resume Button */
-.resume-btn {
-  padding: 15px 32px;           
-  border: 1.5px solid #00e600;      
-  border-radius: 6px;
-  background-color: transparent;
-  color: #ccc;
-  font-weight: 500;
-  font-size: 8px;               
-  text-decoration: none;
-  transition: all 0.3s ease;
+/* Resume Button Wrapper */
+.resume-button {
+  margin-left: 1.5rem;
   position: relative;
-  top: -3px;                    
+  top: -2px; /* Slightly raise button */
+}
+
+/* Resume Button Styling */
+.resume-btn {
+  padding: 0.4rem 1rem;
+  border: 1px solid #00e600;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border: 2px solid #00e600;
+  background-color: transparent;
+  color: #00e600;
+  border-radius: 6px;
+  text-decoration: none;       /* No underline */
+  font-weight: 600;
+  font-size: 0.95rem;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  line-height: 1;
+  font-weight: 600;
+  text-decoration: none !important; /* Override underline */
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  line-height: 1.2;
 }
 
 .resume-btn:hover {
-  background-color: rgba(0, 230, 0, 0.05);
-  color: #00e600;
-  border-color: #00e600;
+  background-color: #00e600;
+  color: #000;
+  text-decoration: none;       /* Prevent underline on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(0, 230, 0, 0.3);
+  text-decoration: none !important; /* Ensure no underline on hover */
 }
 
 /* SOCIAL LINKS */
