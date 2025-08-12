@@ -155,6 +155,63 @@ html {
   max-width: 750px; /* Wider text column */
 }
 
+/* SELF-ASSESSMENT (matches your existing style) */
+#self-assessment {
+  max-width: 900px;
+  margin: 6rem auto;
+  padding: 0 1.5rem;
+}
+
+.sa-actions {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Reuse your resume button style and add a filled variant */
+.resume-btn.fill {
+  background-color: #00e600;
+  color: #000;
+}
+
+/* Card matches your .experience-bubble/.project look */
+.sa-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.sa-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
+#self-assessment h3 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.3rem;
+  color: #e5e5e5;
+}
+
+#self-assessment h4 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.4rem;
+  font-weight: normal;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+#self-assessment p {
+  line-height: 1.6;
+  color: #ccc;
+  margin: 0 0 0.75rem 0;
+}
+
+
 /* Image Styling */
 .about-image img {
   width: 340px;
