@@ -135,33 +135,9 @@ html {
   padding: 0 1.5rem;
 }
 
-.sa-actions {
-  display: flex;
-  gap: 1rem;
-  margin: 1rem 0 1.5rem;
-  flex-wrap: wrap;
-}
+/* Removed unused resume button variants */
 
-/* Reuse your resume button style and add a filled variant */
-.resume-btn.fill {
-  background-color: #00e600;
-  color: #000;
-}
-
-/* Card matches your .experience-bubble/.project look */
-.sa-card {
-  background-color: #1e1e1e;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-align: left;
-}
-
-.sa-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
-}
+/* Removed unused .sa-card styles */
 
 #self-assessment h3 {
   margin-top: 0.25rem;
@@ -361,12 +337,7 @@ section#contact {
   padding: 0 1.5rem;
 }
 
-.contact {
-  max-width: 900px;
-  margin: 6rem auto;            /* More space above/below */
-  padding: 0 2rem 4rem;         /* Adds horizontal and bottom padding */
-  text-align: left;
-}
+/* Removed unused .contact wrapper styles */
 
 section:not(.about-section) {
   margin-top: 6rem;
