@@ -79,34 +79,7 @@ html {
   transform-origin: left;
 }
 
-/* Resume Button */
-/* Resume Button Wrapper */
-.resume-button {
-  margin-left: 1.5rem;
-  position: relative;
-  top: -2px; /* Slightly raise button */
-}
-
-.top-nav .resume-btn {
-  padding: 0.3rem 0.8rem;
-  border: 1px solid #00e600;
-  background-color: transparent;
-  color: #00e600;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 0.85rem !important; /* Force override */
-  text-decoration: none !important;
-  line-height: 1.2;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
-}
-
-.resume-btn:hover {
-  background-color: #00e600;
-  color: #000;
-  transform: translateY(-2px);
-  box-shadow: 0 2px 6px rgba(0, 230, 0, 0.3);
-  text-decoration: none !important;
-}
+/* Resume Button styles removed */
   
 /* SOCIAL LINKS */
 .social-vertical {
