@@ -21,14 +21,14 @@
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#self-assessment">Self‑Assessment</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         
-      <!-- Resume button temporarily removed -->
       </nav>
+      
+      <a href="assets/Gabriel Walls Resume.pdf" download="Gabriel_Walls_Resume.pdf" class="resume-button">Resume</a>
       
      <div class="social-vertical">
       <a href="https://github.com/GabeWalls" target="_blank" aria-label="GitHub">
@@ -61,39 +61,6 @@
           
         </div>
       </section>
-
-    <!-- Self-Assessment Section -->
-    <section id="self-assessment" data-aos="fade-right">
-      <h2>Professional Self‑Assessment</h2>
-      
-      <article class="sa-body">
-        <h3>Project: Arrow Grain Calculator</h3>
-    
-        <h4>Overview</h4>
-        <p>Across the Computer Science program I grew from writing small, single‑file scripts to designing, testing, and shipping a full web application. My capstone, the Arrow Grain Calculator, shows that trajectory: a React front end with an interactive SVG arrow (software design & engineering), algorithmic calculations for shaft grains and FOC% (algorithms & data structures), and a Node/Express + MongoDB layer to persist builds (databases). Each layer was refined to meet professional expectations for clarity, maintainability, and user value.</p>
-    
-        <h4>Collaboration and Decision Making</h4>
-        <p>I used practices that create a collaborative environment even on a solo project: a PR‑first workflow, clear commit messages, and issue tracking for increments. Architectural decisions are documented (client vs. server calculations, schema constraints, and UX choices) to make the system understandable and reviewable. Iterations were guided by feedback—for example, improving hover states, grouped selection, and click‑away behavior to reduce user confusion.</p>
-    
-        <h4>Communication</h4>
-        <p>I aimed for professional‑quality communication across media: (1) visual, consistent motion/feedback such as hover lift and glow; (2) written, descriptive component/file names and comments where intent isn’t obvious; (3) oral, a code‑review video that explains architecture, trade‑offs, and enhancement rationale for a technical audience.</p>
-    
-        <h4>Software Engineering and Databases</h4>
-        <p>The front end uses modular React components (e.g., ArrowSVG) and predictable state via hooks. I emphasized cohesion by keeping calculator logic near the form and isolating visuals inside the SVG component. On the back end I designed an Express API with a Mongoose model that validates domain rules (component enums, non‑negative grains, timestamps). The UI now includes a collapsible, paginated Saved Builds panel (10 per page) to scale with data.</p>
-    
-        <h4>Algorithms and Data Structures</h4>
-        <p>Shaft grains are computed as GPI × arrow length; total grains sums component weights with validation; FOC% uses a weighted balance‑point formula across components (tip, insert, shaft, fletching, knock). I favor clarity and testability over premature optimization, and I recompute totals on the server to preserve integrity.</p>
-    
-        <h4>Security Mindset</h4>
-        <p>I added input validation and schema constraints, recomputed critical values server‑side, and kept a roadmap for future hardening: request validation (Joi/Zod), authentication/authorization for private builds, rate‑limiting, and sanitization to guard against injection. These measures anticipate adversarial behavior and protect data and resources.</p>
-    
-        <h4>How the Artifacts Fit Together</h4>
-        <p>The three enhancements, UI/UX, algorithms, and database, form a coherent, job‑ready story: I can design an experience, implement the logic behind it, and ship the data layer to support real users. This end‑to‑end capability demonstrates mastery of the program outcomes and my readiness for professional software development.</p>
-    
-        <h4>Next Steps</h4>
-        <p>Short‑term: add unit tests for FOC% and server endpoints, improve accessibility (keyboard focus and ARIA on SVG parts), and add optimistic UI for saves. Medium‑term: implement authentication and per‑user builds, add shareable links, and deploy CI with lint/test gates. Long‑term: analyze anonymized build data to recommend components and visualize performance trends.</p>
-      </article>
-    </section>
 
   
   <!-- Moved this down to see if it makes about section wider.  .content was constricting about section from being wider-->
@@ -178,9 +145,18 @@
         <h2 data-aos="fade-right">Projects</h2>
       
         <div class="project" data-aos="fade-right">
-          <img src="images/arrow-grain-calculator.png" alt="Arrow Grain Calculator screenshot">
+          <div class="project-embed">
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+              <iframe 
+                src="https://arrow-weight-calculator-2a8100901f6d.herokuapp.com/embed" 
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 4px solid #dc2626; border-radius: 8px;"
+                frameborder="0"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
           <div class="project-details">
-            <h3>Arrow Grain Calculator (WIP)</h3>
+            <h3>BowTune.com</h3>
             <p>A full-stack web application built with JavaScript, HTML, and CSS that calculates arrow grain weights for competitive archers and bowhunters. This project serves as the capstone for my Computer Science degree, demonstrating core competencies in software engineering and design, algorithms and data structures, and database integration. The app showcases user input handling, modular design principles, and structured data storage while providing a practical solution for the archery and hunting community.</p>
             <p><strong>Tech:</strong> JS, HTML, CSS</p>
             <a href="https://github.com/GabeWalls/arrow-grain-calculator" target="_blank">View on GitHub</a>
@@ -204,6 +180,21 @@
             <p>This project focused on the development and presentation of a standardized C++ secure coding policy for Green Pace, covering real-world vulnerability mitigation and DevSecOps practices. I created and tested security-focused unit tests using Visual Studio, implemented static analysis tooling, and presented policy recommendations aligned with SEI CERT standards.</p>
             <p><strong>Tech:</strong> Secure coding standards, static analysis (Cppcheck, Clang-Tidy, Fortify), encryption, DevSecOps integration, threat modeling, unit testing.</p>
             <a href="https://github.com/GabeWalls/CS405" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Walls-Tech Section -->
+      <section id="walls-tech" data-aos="fade-right">
+        <h2 data-aos="fade-right">Walls-Tech.com</h2>
+        <div class="walls-tech-content">
+          <div class="walls-tech-logo">
+            <img src="assets/WallsTech-Logo(white).svg" alt="Walls-Tech Logo">
+          </div>
+          <div class="walls-tech-details">
+            <p>I offer consulting and software development services on the side through Walls-Tech.com. Whether you need custom web applications, software solutions, or technical consulting, I'm here to help bring your ideas to life.</p>
+            <p><strong>Services:</strong> Web Development, Software Development, Technical Consulting</p>
+            <a href="https://walls-tech.com" target="_blank">Visit Walls-Tech.com</a>
           </div>
         </div>
       </section>
